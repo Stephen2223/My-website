@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen's Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            
+        }
+        h1 {
+            color: #007bff;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+       
+    </style>
 </head>
 <body>
-
     <h1>Stephen Asoluka</h1>
-    <p>I'm from imo state.</p>
+    <p>I'm from Imo state.</p>
 
     <h2>About</h2>
-    <p>I'm a beginner web developer improving rapidly</p>
+    <p>I'm a beginner web developer.</p>
 
     <h2>Contact</h2>
-    <p>Email us at contact@stephenasoluka.com</p>
+    <p>Email: contact@stephenasoluka.com</p>
 
+    <button onclick="showGreeting()">Click me!</button>
+
+    <script>
+        function showGreeting() {
+            alert('Hello! Thanks for visiting my page.');
+        }
+    </script>
 </body>
 </html>
